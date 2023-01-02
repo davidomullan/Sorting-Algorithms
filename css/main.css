@@ -1,0 +1,75 @@
+/* If you want to reset all
+*{
+	margin: 0;
+	padding: 0;
+}
+*/
+
+body{
+	background-color: #f7fbff;
+	color:#555555;
+
+	font-family: Times New Roman, Times, serif;
+	font-size: 16px;
+	font-weight: normal;
+
+	line-height: 1.6em;
+	margin: 0;
+}
+
+canvas{
+	margin: 0 auto;
+}
+
+.container{
+	width: 100%;
+	margin: auto;
+}
+
+.button{
+	background-color: #333;
+	color: #fff;
+	padding:10px 15px;
+	border: none;
+}
+
+.button:hover{
+	background:red;
+	color:#fff;
+}
+
+.clr{
+	clear: both;
+}
+
+.box-1{
+	background-color: #333;
+	color:#fff;
+	border: 3px blue solid;
+	padding:15px;
+	margin: 0px 0px 20px 0px;
+}
+
+.box-1 h1{
+	font-family: Times New Roman;
+	font-weight: 800;
+	text-decoration: underline;
+	text-transform: uppercase;
+	word-spacing: .5em;
+}
+
+.box-2{
+	border:3px dotted #ccc;
+	padding: 20px;
+	margin: auto;
+}
+
+#bubbleSortChart{
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+
+	max-height: 500px;
+	max-width: 800px;
+}
