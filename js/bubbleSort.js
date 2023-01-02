@@ -1,5 +1,12 @@
-var xValues = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-var yValues = [ 5, 1, 9, 8, 2, 3, 7, 4, 0, 6];
+ne = 50; //number of elements
+
+var xValues = [];
+for (var i=1; i<=ne; i++){
+  xValues.push(i);
+}
+
+var yValues = Array.from({length: ne}, () => Math.floor(Math.random() * ne));
+
 // var barColors = ["red", "green", "blue", "orange", "brown", "teal", 'magenta', "maroon", "yellow", "black"];
 
 var bubbleSortChart = new Chart("bubbleSortChart", {
@@ -57,7 +64,7 @@ function bubbleSort(arr, n){
     requestAnimationFrame(() => {
       bubbleSort(arr, n-1);
     });
-  }, 800);
+  }, 500);
 
 }
 
