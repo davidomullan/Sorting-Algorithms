@@ -13,13 +13,25 @@
 	<body>
 		<div class="container">
 			<div class="box-1">
-				<h1>Sorting Algorithms</h1>
-				<p>This page provides a visual represenation of the Bubble Sort algorithm. Bubble Sort works by swapping adjacent elements of an array (if they are not in numerical order). The algorithm executes multiple pass-throughs until the final pass-through requires no changes and the array is in order. The algorithm has a worst-case time complexity of O(n<sup>2</sup>) and a space complexity of O(1).</p>
+				<h1>Bubble Sort Algorithm</h1>
+				<p>This section provides a visual represenation of the Bubble Sort algorithm. Bubble Sort works by swapping adjacent elements of an array (if they are not in numerical order). The algorithm executes multiple pass-throughs until the final pass-through requires no changes and the array is in order. The algorithm has a worst-case time complexity of O(n<sup>2</sup>) and a space complexity of O(1).</p>
 			</div>
 			<div class="box-2">
 				<canvas id="bubbleSortChart"></canvas>
 				<script type="text/javascript" src="js/bubbleSort.js"></script>
 				<input type="button" class="button" onClick="bubbleSort(yValues, ne)" value="Bubble Sort" name="bubbleSortButton">
+				<input type="button" class="button" onClick="bubbleReset(ne)" value="Reset" name="bubbleSortReset">
+			</div>
+
+			<div class="box-1">
+				<h1>Quick Sort Algorithm</h1>
+				<p>This section provides a visual represenation of the Quick Sort algorithm. Quick sort follows a Divide and Conquer method. It is dividing elements in to smaller parts based on some condition and performing the sort operations on those divided smaller parts. The algorithm has a worst-case time complexity of O(n<sup>2</sup>) and a space complexity of O(log n).</p>
+			</div>
+			<div class="box-2">
+				<canvas id="quickSortChart"></canvas>
+				<script type="text/javascript" src="js/quickSort.js"></script>
+				<input type="button" class="button" onClick="quickSort(qyValues, 0, quickNum - 1)" value="Quick Sort" name="quickSortButton">
+				<input type="button" class="button" onClick="quickReset(quickNum)" value="Reset" name="quickSortReset">
 			</div>
 
 		</div><!-- ./container -->
