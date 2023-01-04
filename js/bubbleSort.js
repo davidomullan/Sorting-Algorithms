@@ -68,6 +68,12 @@ function bubbleSort(arr, n){
 
 }
 
+function bubbleReset(ne){
+  yValues = Array.from({length: ne}, () => Math.floor(Math.random() * ne));
+  bubbleSortChart.data.datasets[0].data = yValues;
+  bubbleSortChart.update();
+}
+
 
 /* For loop will not sync with frames to update chart...
 
