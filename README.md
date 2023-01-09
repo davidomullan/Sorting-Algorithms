@@ -16,3 +16,5 @@
 1. Open browser window and enter '~/index.html' (location of file) into URL
 2. Click 'Bubble Sort' button to see visualization. Click reset button once complete for new random chart.
 3. Clock 'Quick Sort' button to see visualization. Clock reset button once complete.
+
+![Bubble Sort Screenshot](/images/BubbleSortVisualization.png "Bubble Sort Screenshot")
